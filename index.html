@@ -21,9 +21,16 @@ header{border-bottom:5px solid var(--ink);padding:22px 0 16px;margin-bottom:32px
 
 /* 搜索框 */
 .searchbar{position:sticky;top:0;background:#fff;padding:16px 0 18px;z-index:10;}
-.search-input{width:100%;border:4px solid var(--ink);padding:16px 20px;font-size:19px;
-  font-weight:700;font-family:inherit;outline:none;border-radius:0;}
+.search-row{display:flex;gap:8px;width:100%;}
+.search-input{flex:1;min-width:0;border:4px solid var(--ink);padding:16px 20px;font-size:19px;
+  font-weight:700;font-family:inherit;outline:none;border-radius:0;-webkit-appearance:none;}
 .search-input:focus{box-shadow:6px 6px 0 var(--ink);}
+.search-input::-webkit-search-cancel-button{-webkit-appearance:none;}
+.search-btn{border:4px solid var(--ink);background:var(--ink);color:#fff;font-family:inherit;
+  font-size:16px;font-weight:900;padding:0 22px;cursor:pointer;white-space:nowrap;letter-spacing:.06em;flex-shrink:0;}
+.search-btn:active{background:var(--red);border-color:var(--red);}
+.live-count{font-size:13px;font-weight:800;color:#444;margin-top:10px;min-height:18px;}
+.live-count b{color:var(--red);font-size:17px;}
 .hint{font-size:12px;color:var(--faint);margin-top:10px;line-height:1.7;}
 .hint b{color:var(--red);}
 .ch-filter{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px;}
@@ -64,8 +71,11 @@ footer{border-top:4px solid var(--ink);margin-top:50px;padding-top:18px;text-ali
   font-size:12px;color:var(--faint);letter-spacing:.16em;font-weight:700;line-height:2;}
 @media(max-width:640px){
   .logo{font-size:21px;} .hd-sub{display:none;} .word{font-size:24px;}
-  .card-body{grid-template-columns:1fr;} .thumb{border-right:none;border-bottom:4px solid var(--ink);height:130px;min-height:0;}
-  .copy{top:auto;bottom:6px;}
+  .search-input{font-size:16px;padding:13px 14px;} .search-btn{font-size:14px;padding:0 14px;}
+  .card-body{grid-template-columns:96px 1fr;}
+  .card-content{padding:12px 14px;}
+  .thumb{min-height:0;height:auto;align-self:stretch;}
+  .copy{position:static;display:inline-block;margin-top:6px;padding:4px 10px;}
 }
 </style>
 </head>
@@ -80,8 +90,12 @@ footer{border-top:4px solid var(--ink);margin-top:50px;padding-top:18px;text-ali
   </header>
 
   <div class="searchbar">
-    <input id="q" class="search-input" type="text" placeholder="试试：伦勃朗光 / Rembrandt / 脸一半亮一半暗 / 赛博朋克" autocomplete="off">
-    <div class="hint">搜<b>中文术语</b>、<b>英文</b>、<b>大白话俗称</b>都能命中 · 支持多词组合（空格分隔，取交集）</div>
+    <div class="search-row">
+      <input id="q" class="search-input" type="search" enterkeyhint="search" placeholder="试试：伦勃朗光 / Rembrandt / 脸一半亮一半暗" autocomplete="off">
+      <button id="doSearch" class="search-btn">搜索</button>
+    </div>
+    <div class="live-count" id="searchCount">输入关键词开始查找</div>
+    <div class="hint">搜<b>中文术语</b>、<b>英文</b>、<b>大白话俗称</b>都能命中 · 多词空格分隔取交集 · 结果实时更新</div>
     <div class="ch-filter" id="chFilter"></div>
   </div>
 
@@ -157,6 +171,10 @@ function card(o){
 function render(q){
   const terms=q.trim().toLowerCase().split(/\s+/).filter(Boolean);
   const list=DATA.filter(o=>match(o,terms));
+  // 置顶实时计数：键盘不收起也能立刻看到"搜到了"
+  $('#searchCount').innerHTML=terms.length
+    ?`找到 <b>${list.length}</b> 个词条 · 结果已在下方显示`
+    :`共 ${DATA.length} 个词条 · 输入关键词开始查找`;
   $('#meta').innerHTML=terms.length?`找到 <b>${list.length}</b> 个词条`:`共 <b>${DATA.length}</b> 个词条 · 输入关键词开始查找`;
   if(!list.length){
     $('#results').innerHTML='<div class="empty"><div class="big">?</div>没找到，换个词试试<br>比如「黄金时刻」「赛博朋克」「bokeh」</div>';
@@ -164,6 +182,18 @@ function render(q){
   }
   $('#results').innerHTML=list.map(card).join('');
   bindCopy();
+}
+
+// 收起键盘 + 滚动到结果（回车或点搜索按钮时触发）
+function commitSearch(){
+  clearTimeout(timer);
+  render($('#q').value);
+  $('#q').blur();                       // 收起软键盘
+  const target=$('#meta');
+  if(target){
+    const y=target.getBoundingClientRect().top+window.scrollY-70;
+    window.scrollTo({top:y,behavior:'smooth'});
+  }
 }
 
 function bindCopy(){
@@ -178,7 +208,10 @@ function bindCopy(){
 }
 
 let timer;
-$('#q').addEventListener('input',e=>{clearTimeout(timer);timer=setTimeout(()=>render(e.target.value),120);});
+$('#q').addEventListener('input',e=>{clearTimeout(timer);timer=setTimeout(()=>render(e.target.value),150);});
+$('#q').addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();commitSearch();}});
+$('#q').addEventListener('search',()=>commitSearch());  // 部分浏览器点输入框的×或软键盘搜索键
+$('#doSearch').addEventListener('click',commitSearch);
 </script>
 </body>
 </html>
