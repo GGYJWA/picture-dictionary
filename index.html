@@ -46,12 +46,11 @@ header{border-bottom:5px solid var(--ink);padding:22px 0 16px;margin-bottom:32px
 .card-head{background:var(--ink);color:#fff;padding:8px 14px;display:flex;justify-content:space-between;
   font-size:11px;font-weight:800;letter-spacing:.14em;}
 .card-head .ch-badge{padding:1px 8px;font-weight:900;}
-.card-body{display:grid;grid-template-columns:150px 1fr;}
-.thumb{background:#f2f2f2;border-right:4px solid var(--ink);min-height:150px;
-  display:flex;align-items:center;justify-content:center;overflow:hidden;}
-.thumb img{width:100%;height:100%;object-fit:cover;}
-.thumb .noimg{color:#bbb;font-size:12px;font-weight:800;letter-spacing:.2em;}
-.card-content{padding:16px 20px;min-width:0;}
+.card-body{display:flex;align-items:flex-start;gap:20px;padding:16px 20px;}
+.thumb{flex:0 0 210px;background:#f2f2f2;border:3px solid var(--ink);}
+.thumb img{width:100%;height:auto;display:block;object-fit:contain;}
+.thumb .noimg{display:flex;align-items:center;justify-content:center;height:160px;color:#bbb;font-size:12px;font-weight:800;letter-spacing:.2em;}
+.card-content{flex:1;min-width:0;}
 .word{font-size:30px;font-weight:900;line-height:1.1;margin-bottom:4px;}
 .alias{font-size:12px;color:var(--faint);line-height:1.6;margin-bottom:14px;word-break:break-all;}
 .prompt-row{position:relative;margin-bottom:10px;}
@@ -72,9 +71,8 @@ footer{border-top:4px solid var(--ink);margin-top:50px;padding-top:18px;text-ali
 @media(max-width:640px){
   .logo{font-size:21px;} .hd-sub{display:none;} .word{font-size:24px;}
   .search-input{font-size:16px;padding:13px 14px;} .search-btn{font-size:14px;padding:0 14px;}
-  .card-body{grid-template-columns:96px 1fr;}
-  .card-content{padding:12px 14px;}
-  .thumb{min-height:0;height:auto;align-self:stretch;}
+  .card-body{padding:12px 14px;gap:12px;}
+  .thumb{flex:0 0 120px;}
   .copy{position:static;display:inline-block;margin-top:6px;padding:4px 10px;}
 }
 </style>
