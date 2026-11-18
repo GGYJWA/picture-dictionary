@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>把画面说给 AI 听 · 画面感词典</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+:root{--ink:#111;--faint:#8a8a8a;--line:#e6e6e6;--red:#E8462F;}
+body{font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;background:#fff;color:var(--ink);
+  -webkit-font-smoothing:antialiased;}
+.wrap{max-width:960px;margin:0 auto;padding:0 24px 80px;}
+
+/* 页头 */
+header{border-bottom:5px solid var(--ink);padding:22px 0 16px;margin-bottom:32px;}
+.hd-top{display:flex;justify-content:space-between;align-items:flex-end;}
+.logo{font-size:26px;font-weight:900;letter-spacing:-.02em;}
+.logo .r{color:var(--red);}
+.hd-sub{font-size:11px;color:var(--faint);letter-spacing:.2em;font-weight:800;text-align:right;}
+.tagline{font-size:14px;color:#555;margin-top:10px;font-weight:600;}
+
+/* 搜索框 */
+.searchbar{position:sticky;top:0;background:#fff;padding:16px 0 18px;z-index:10;}
+.search-input{width:100%;border:4px solid var(--ink);padding:16px 20px;font-size:19px;
+  font-weight:700;font-family:inherit;outline:none;border-radius:0;}
+.search-input:focus{box-shadow:6px 6px 0 var(--ink);}
+.hint{font-size:12px;color:var(--faint);margin-top:10px;line-height:1.7;}
+.hint b{color:var(--red);}
+.ch-filter{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px;}
+.ch-btn{border:2px solid var(--ink);background:#fff;padding:5px 12px;font-size:12px;
+  font-weight:800;cursor:pointer;letter-spacing:.04em;}
+.ch-btn.on{background:var(--ink);color:#fff;}
+
+/* 结果 */
+.meta-line{font-size:13px;color:var(--faint);margin:8px 0 20px;font-weight:700;}
+.meta-line b{color:var(--red);font-size:18px;}
+.results{display:flex;flex-direction:column;gap:20px;}
+.card{border:4px solid var(--ink);}
+.card-head{background:var(--ink);color:#fff;padding:8px 14px;display:flex;justify-content:space-between;
+  font-size:11px;font-weight:800;letter-spacing:.14em;}
+.card-head .ch-badge{padding:1px 8px;font-weight:900;}
+.card-body{display:grid;grid-template-columns:150px 1fr;}
+.thumb{background:#f2f2f2;border-right:4px solid var(--ink);min-height:150px;
+  display:flex;align-items:center;justify-content:center;overflow:hidden;}
+.thumb img{width:100%;height:100%;object-fit:cover;}
+.thumb .noimg{color:#bbb;font-size:12px;font-weight:800;letter-spacing:.2em;}
+.card-content{padding:16px 20px;min-width:0;}
+.word{font-size:30px;font-weight:900;line-height:1.1;margin-bottom:4px;}
+.alias{font-size:12px;color:var(--faint);line-height:1.6;margin-bottom:14px;word-break:break-all;}
+.prompt-row{position:relative;margin-bottom:10px;}
+.prompt-lab{font-size:11px;font-weight:800;letter-spacing:.1em;margin-bottom:5px;}
+.prompt-lab.cn{color:#2E5CE8;} .prompt-lab.en{color:#888;}
+.prompt-box{background:#F4F6FA;border-left:5px solid #2E5CE8;padding:10px 52px 10px 14px;
+  font-size:14px;line-height:1.7;word-break:break-word;}
+.prompt-box.en-box{background:#F6F6F6;border-left-color:#bbb;color:#555;
+  font-family:Menlo,Consolas,monospace;font-size:12.5px;}
+.copy{position:absolute;right:8px;top:26px;border:2px solid var(--ink);background:#fff;
+  font-size:11px;font-weight:800;padding:5px 9px;cursor:pointer;white-space:nowrap;}
+.copy:hover{background:var(--ink);color:#fff;}
+.copy.done{background:#12A05C;color:#fff;border-color:#12A05C;}
+.empty{text-align:center;padding:70px 20px;color:var(--faint);}
+.empty .big{font-size:64px;font-weight:900;color:var(--line);margin-bottom:12px;}
+footer{border-top:4px solid var(--ink);margin-top:50px;padding-top:18px;text-align:center;
+  font-size:12px;color:var(--faint);letter-spacing:.16em;font-weight:700;line-height:2;}
+@media(max-width:640px){
+  .logo{font-size:21px;} .hd-sub{display:none;} .word{font-size:24px;}
+  .card-body{grid-template-columns:1fr;} .thumb{border-right:none;border-bottom:4px solid var(--ink);height:130px;min-height:0;}
+  .copy{top:auto;bottom:6px;}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="hd-top">
+      <div class="logo">把画面<span class="r">说给</span> AI 听</div>
+      <div class="hd-sub">A PICTURE DICTIONARY<br>112 词条 · 7 章</div>
+    </div>
+    <div class="tagline">输入你想描述的画面，或任意关键词——把中英文提示词带走。</div>
+  </header>
+
+  <div class="searchbar">
+    <input id="q" class="search-input" type="text" placeholder="试试：伦勃朗光 / Rembrandt / 脸一半亮一半暗 / 赛博朋克" autocomplete="off">
+    <div class="hint">搜<b>中文术语</b>、<b>英文</b>、<b>大白话俗称</b>都能命中 · 支持多词组合（空格分隔，取交集）</div>
+    <div class="ch-filter" id="chFilter"></div>
+  </div>
+
+  <div class="meta-line" id="meta"></div>
+  <div class="results" id="results"></div>
+
+  <footer>
+    把画面说给 AI 听 · 面向 AI 初学者的画面感词典<br>
+    示意图仅供参考 · 版权所有 侵权必究
+  </footer>
+</div>
+
+<script>
+let DATA=[], activeCh=0;
+const $=s=>document.querySelector(s);
+
+fetch('data.json').then(r=>r.json()).then(d=>{
+  DATA=d;
+  buildFilter();
+  const initQ=new URLSearchParams(location.search).get('q')||'';
+  if(initQ){$('#q').value=initQ; render(initQ);} else render('');
+}).catch(e=>{
+  $('#results').innerHTML='<div class="empty"><div class="big">!</div>数据加载失败，请用本地服务器打开（见 README）</div>';
+});
+
+const CH=[{n:0,t:'全部',c:'#111'},{n:1,t:'光影',c:'#E8462F'},{n:2,t:'镜头',c:'#2E5CE8'},
+  {n:3,t:'构图',c:'#C8890B'},{n:4,t:'风格',c:'#12A05C'},{n:5,t:'色彩',c:'#7B4FA8'},
+  {n:6,t:'纹理',c:'#E07B39'},{n:7,t:'氛围',c:'#1B9AAA'}];
+
+function buildFilter(){
+  $('#chFilter').innerHTML=CH.map(c=>
+    `<button class="ch-btn${c.n===0?' on':''}" data-ch="${c.n}">${c.t}</button>`).join('');
+  document.querySelectorAll('.ch-btn').forEach(b=>b.onclick=()=>{
+    document.querySelectorAll('.ch-btn').forEach(x=>x.classList.remove('on'));
+    b.classList.add('on'); activeCh=+b.dataset.ch; render($('#q').value);
+  });
+}
+
+function esc(s){const d=document.createElement('div');d.textContent=s;return d.innerHTML;}
+
+function match(o,terms){
+  if(activeCh && o.ch!==activeCh) return false;
+  const hay=(o.name+' '+o.alias+' '+o.cn+' '+o.en+' '+o.chapter).toLowerCase();
+  return terms.every(t=>hay.includes(t));
+}
+
+function card(o){
+  const badge=CH.find(c=>c.n===o.ch);
+  const thumb=o.img?`<img src="${esc(o.img)}" alt="${esc(o.name)}">`:'<span class="noimg">示意图</span>';
+  return `<article class="card">
+    <div class="card-head"><span>${esc(o.chapter)} ·词条</span>
+      <span class="ch-badge" style="background:${o.color}">${esc(badge.t)}</span></div>
+    <div class="card-body">
+      <div class="thumb">${thumb}</div>
+      <div class="card-content">
+        <div class="word" style="color:${o.color}">${esc(o.name)}</div>
+        <div class="alias">${esc(o.alias||o.chapter)}</div>
+        <div class="prompt-row">
+          <div class="prompt-lab cn">中文提示词 · 国产工具直接粘</div>
+          <div class="prompt-box">${esc(o.cn)}</div>
+          <button class="copy" data-copy="${esc(o.cn)}">复制</button>
+        </div>
+        <div class="prompt-row">
+          <div class="prompt-lab en">英文提示词 · 给 AI 看的</div>
+          <div class="prompt-box en-box">${esc(o.en)}</div>
+          <button class="copy" data-copy="${esc(o.en)}">复制</button>
+        </div>
+      </div>
+    </div>
+  </article>`;
+}
+
+function render(q){
+  const terms=q.trim().toLowerCase().split(/\s+/).filter(Boolean);
+  const list=DATA.filter(o=>match(o,terms));
+  $('#meta').innerHTML=terms.length?`找到 <b>${list.length}</b> 个词条`:`共 <b>${DATA.length}</b> 个词条 · 输入关键词开始查找`;
+  if(!list.length){
+    $('#results').innerHTML='<div class="empty"><div class="big">?</div>没找到，换个词试试<br>比如「黄金时刻」「赛博朋克」「bokeh」</div>';
+    return;
+  }
+  $('#results').innerHTML=list.map(card).join('');
+  bindCopy();
+}
+
+function bindCopy(){
+  document.querySelectorAll('.copy').forEach(b=>b.onclick=()=>{
+    const text=b.dataset.copy;
+    const done=()=>{const t=b.textContent;b.textContent='已复制 ✓';b.classList.add('done');
+      setTimeout(()=>{b.textContent=t;b.classList.remove('done');},1200);};
+    if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(text).then(done);}
+    else{const ta=document.createElement('textarea');ta.value=text;document.body.appendChild(ta);
+      ta.select();document.execCommand('copy');document.body.removeChild(ta);done();}
+  });
+}
+
+let timer;
+$('#q').addEventListener('input',e=>{clearTimeout(timer);timer=setTimeout(()=>render(e.target.value),120);});
+</script>
+</body>
+</html>

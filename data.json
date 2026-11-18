@@ -1,0 +1,1122 @@
+[
+ {
+  "name": "伦勃朗光",
+  "alias": "三角光 三角鼻影 45度侧光 脸一半亮一半暗 肖像明暗分割 Rembrandt triangular nose shadow chiaroscuro",
+  "cn": "伦勃朗光，鼻影在脸颊投出三角形，半张脸亮半张脸暗，斜上方四十五度柔和主光，深色背景，明暗对照，古典肖像油画",
+  "en": "Rembrandt lighting, triangular nose shadow, single soft key light at 45 degrees, dark background, chiaroscuro",
+  "ch": 1,
+  "chapter": "光影与布光",
+  "color": "#E8462F",
+  "img": "images/伦勃朗光.png"
+ },
+ {
+  "name": "三点布光",
+  "alias": "三角布光 主光补光轮廓光 人像立体 影棚光 three-point lighting key fill rim",
+  "cn": "三点布光，四十五度斜上方主光，柔和补光，背后轮廓光勾边，影棚人像，面部立体，干净背景",
+  "en": "three-point lighting, key light at 45 degrees, soft fill light, rim light separation, studio portrait",
+  "ch": 1,
+  "chapter": "光影与布光",
+  "color": "#E8462F",
+  "img": "images/三点布光.png"
+ },
+ {
+  "name": "明暗对照法",
+  "alias": "暗调 低调 烛光油画 暗部有细节 chiaroscuro low key candlelit painterly",
+  "cn": "明暗对照法，低调布光，烛光照明，暗部保留细节，油画质感，大面积深黑背景",
+  "en": "chiaroscuro, low key lighting, candlelit, detail in deep shadows, painterly, deep blacks",
+  "ch": 1,
+  "chapter": "光影与布光",
+  "color": "#E8462F",
+  "img": "images/明暗对照法.png"
+ },
+ {
+  "name": "体积光（丁达尔效应）",
+  "alias": "丁达尔效应 光柱 光束 耶稣光 浮尘 volumetric light god rays light shafts sunbeam",
+  "cn": "体积光，丁达尔效应，看得见的光柱，阳光斜射，空气中发亮的浮尘，朦胧雾气",
+  "en": "volumetric lighting, god rays, light shafts, dusty air particles glowing in light beams, atmospheric haze",
+  "ch": 1,
+  "chapter": "光影与布光",
+  "color": "#E8462F",
+  "img": "images/体积光.png"
+ },
+ {
+  "name": "引导线",
+  "alias": "视线引导 汇聚线 透视纵深 leading lines converging lines",
+  "cn": "引导线构图，强透视，汇聚线，纵深感，视线被引向画面主体，走廊透视",
+  "en": "leading lines composition, strong perspective, converging lines, depth, eye guided to subject",
+  "ch": 3,
+  "chapter": "构图与机位",
+  "color": "#C8890B",
+  "img": "images/推镜头.png"
+ },
+ {
+  "name": "主光",
+  "alias": "主光源 主要光 打光主力 key light main light",
+  "cn": "主光，四十五度斜上方单灯，面部主要明暗，阴影清晰，明暗对照，影棚人像",
+  "en": "key light, single main light at 45 degrees, defined facial shadows, studio portrait, chiaroscuro",
+  "ch": 1,
+  "chapter": "光影与布光",
+  "color": "#E8462F",
+  "img": "images/主光.png"
+ },
+ {
+  "name": "补光",
+  "alias": "辅助光 填光 提亮阴影 fill light soft fill",
+  "cn": "补光，柔和辅助光，阴影部位轻轻提亮，保留明暗层次，自然过渡，影棚人像",
+  "en": "fill light, soft fill, gently lifted shadows, preserved tonal range, natural transition, studio portrait",
+  "ch": 1,
+  "chapter": "光影与布光",
+  "color": "#E8462F",
+  "img": "images/补光.png"
+ },
+ {
+  "name": "轮廓光",
+  "alias": "逆光勾边 背光 边缘光 勾亮边 rim light backlight edge",
+  "cn": "轮廓光，背后勾边，发丝和肩膀的明亮边缘，人物从背景中分离，深色背景，电影人像",
+  "en": "rim light, backlight edge, bright outline on hair and shoulders, subject separation, dark background, cinematic portrait",
+  "ch": 1,
+  "chapter": "光影与布光",
+  "color": "#E8462F",
+  "img": "images/轮廓光.png"
+ },
+ {
+  "name": "硬光",
+  "alias": "直射光 锐利阴影 强反差 hard light direct light sharp shadows",
+  "cn": "硬光，直射光，边缘锋利清晰的阴影，强烈明暗对比，突出纹理质感，正午阳光",
+  "en": "hard light, direct lighting, sharp defined shadows, high contrast, accentuated texture, midday sun",
+  "ch": 1,
+  "chapter": "光影与布光",
+  "color": "#E8462F",
+  "img": "images/硬光.png"
+ },
+ {
+  "name": "柔光",
+  "alias": "散射光 柔和光 磨皮光 soft light diffused light",
+  "cn": "柔光，柔和散射光，阴影边缘柔和渐变，皮肤细腻光滑，均匀布光，人像摄影",
+  "en": "soft light, diffused lighting, soft gradual shadows, smooth skin, even illumination, portrait photography",
+  "ch": 1,
+  "chapter": "光影与布光",
+  "color": "#E8462F",
+  "img": "images/柔光.png"
+ },
+ {
+  "name": "逆光",
+  "alias": "背光 轮廓发光 发丝光 backlight rim glow hair light",
+  "cn": "逆光，背光照明，人物边缘发光，发丝透亮，温暖光晕，朦胧氛围，黄昏人像",
+  "en": "backlight, backlit subject, glowing rim, hair lit through, warm flare, hazy atmosphere, golden hour portrait",
+  "ch": 1,
+  "chapter": "光影与布光",
+  "color": "#E8462F",
+  "img": "images/逆光.png"
+ },
+ {
+  "name": "侧光",
+  "alias": "四十五度光 侧前方光 明暗分界 side light 45-degree lighting",
+  "cn": "侧光，四十五度斜侧光，面部明暗分明，立体感强，突出纹理，戏剧性人像",
+  "en": "side light, 45-degree side lighting, defined light and shadow on face, strong modeling, accentuated texture, dramatic portrait",
+  "ch": 1,
+  "chapter": "光影与布光",
+  "color": "#E8462F",
+  "img": "images/侧光.png"
+ },
+ {
+  "name": "顶光",
+  "alias": "正上方光 头顶光 显老光 top light overhead lighting",
+  "cn": "顶光，正上方垂直光，眼窝阴影，颧骨突出，强烈明暗对比，正午阳光",
+  "en": "top light, overhead lighting, shadows under eyes and cheekbones, harsh contrast, midday sun",
+  "ch": 1,
+  "chapter": "光影与布光",
+  "color": "#E8462F",
+  "img": "images/顶光.png"
+ },
+ {
+  "name": "底光（脚光）",
+  "alias": "脚光 从下往上 恐怖片打光 uplight footlight horror lighting",
+  "cn": "底光，脚光，从下往上照明，阴影倒长，诡异氛围，戏剧性效果，恐怖片打光",
+  "en": "uplight, footlight, lighting from below, inverted shadows, eerie atmosphere, dramatic effect, horror lighting",
+  "ch": 1,
+  "chapter": "光影与布光",
+  "color": "#E8462F",
+  "img": "images/底光.png"
+ },
+ {
+  "name": "窗光",
+  "alias": "自然侧光 靠窗光 柔光箱 window light natural side light",
+  "cn": "窗光，自然侧光，柔和有方向，靠窗明暗渐变，安静氛围，室内人像",
+  "en": "window light, natural side light, soft directional, gradient near window, quiet atmosphere, indoor portrait",
+  "ch": 1,
+  "chapter": "光影与布光",
+  "color": "#E8462F",
+  "img": "images/窗光.png"
+ },
+ {
+  "name": "光比",
+  "alias": "明暗比 亮度比 反差 lighting ratio contrast ratio",
+  "cn": "光比，明暗过渡柔和，小光比自然人像，高光比强烈反差，明暗层次丰富，电影质感",
+  "en": "lighting ratio, soft tonal transition, low ratio natural portrait, high ratio dramatic contrast, rich tonal range, cinematic",
+  "ch": 1,
+  "chapter": "光影与布光",
+  "color": "#E8462F",
+  "img": "images/光比.png"
+ },
+ {
+  "name": "色温",
+  "alias": "冷暖光 开尔文 色温值 color temperature warm cool kelvin",
+  "cn": "暖色温，温暖金黄色光线，温馨治愈氛围，冷色温，清冷蓝调光线，宁静氛围",
+  "en": "warm color temperature, golden warm light, cozy atmosphere, cool color temperature, cold blue light, calm mood",
+  "ch": 1,
+  "chapter": "光影与布光",
+  "color": "#E8462F",
+  "img": "images/色温.png"
+ },
+ {
+  "name": "黄金时刻",
+  "alias": "日落前一小时 日出后 暖金光 golden hour warm sunlight",
+  "cn": "黄金时刻，日落暖金色光线，柔和侧光，长影子，温暖电影感，发光边缘",
+  "en": "golden hour, warm golden sunlight, soft side light, long shadows, cinematic warmth, glowing edges",
+  "ch": 1,
+  "chapter": "光影与布光",
+  "color": "#E8462F",
+  "img": "images/黄金时刻.png"
+ },
+ {
+  "name": "蓝调时刻",
+  "alias": "日落后深蓝 暮色 城市蓝 blue hour twilight",
+  "cn": "蓝调时刻，日落后深蓝天空，城市灯光初上，冷暖对比，宁静忧郁氛围，夜景",
+  "en": "blue hour, deep blue sky after sunset, city lights, warm and cool contrast, moody calm atmosphere, nightscape",
+  "ch": 1,
+  "chapter": "光影与布光",
+  "color": "#E8462F",
+  "img": "images/蓝调时刻.png"
+ },
+ {
+  "name": "剪影",
+  "alias": "黑色轮廓 逆光剪影 只留外形 silhouette backlit outline",
+  "cn": "剪影，逆光黑色轮廓，主体全黑仅保留外形，明亮背景，强烈明暗对比，情绪氛围",
+  "en": "silhouette, backlit dark outline, subject in full shadow, bright background, high contrast, moody atmosphere",
+  "ch": 1,
+  "chapter": "光影与布光",
+  "color": "#E8462F",
+  "img": "images/剪影.png"
+ },
+ {
+  "name": "眼神光",
+  "alias": "眼睛高光 瞳孔亮点 点睛 catchlight eye highlight",
+  "cn": "眼神光，眼球明亮反光点，眼睛有神，小光源反光，细腻人像特写",
+  "en": "catchlight, catchlight in eyes, bright highlight in pupils, lively eyes, small light source reflection, portrait close-up",
+  "ch": 1,
+  "chapter": "光影与布光",
+  "color": "#E8462F",
+  "img": "images/眼神光.png"
+ },
+ {
+  "name": "特写与大特写",
+  "alias": "大特写 眼部特写 局部放大 close-up extreme close-up",
+  "cn": "特写，肩部以上构图，面部填满画面，眼神光，情绪特写，浅景深，大特写极近距离只取眼睛",
+  "en": "close-up, head and shoulders framing, face filling frame, extreme close-up, eye detail, shallow depth of field",
+  "ch": 2,
+  "chapter": "镜头与景别",
+  "color": "#2E5CE8",
+  "img": "images/大特写.png"
+ },
+ {
+  "name": "近景",
+  "alias": "半身像 胸部以上 medium close-up",
+  "cn": "近景，胸部以上构图，人像摄影，自然表情，眼神交流，背景轻微虚化，柔和光线",
+  "en": "medium close-up, chest-up framing, portrait, natural expression, slightly blurred background, eye contact",
+  "ch": 2,
+  "chapter": "镜头与景别",
+  "color": "#2E5CE8",
+  "img": "images/近景.png"
+ },
+ {
+  "name": "中景",
+  "alias": "半身 膝盖以上 带环境 medium shot",
+  "cn": "中景，膝盖以上构图，人物与环境，对话场景，叙事感，自然光",
+  "en": "medium shot, knees-up framing, subject with environment, natural light, conversational scene",
+  "ch": 2,
+  "chapter": "镜头与景别",
+  "color": "#2E5CE8",
+  "img": "images/中景.png"
+ },
+ {
+  "name": "全景",
+  "alias": "全身像 人物全身 full shot full body",
+  "cn": "全景，全身构图，人物与环境关系，完整空间，环境叙事，自然光",
+  "en": "full shot, full-body framing, subject and environment, complete space, establishing scene",
+  "ch": 2,
+  "chapter": "镜头与景别",
+  "color": "#2E5CE8",
+  "img": "images/全景.png"
+ },
+ {
+  "name": "远景",
+  "alias": "大远景 旷野小人 苍茫 long shot wide shot",
+  "cn": "远景，大环境，人物渺小，旷野，苍茫氛围，空间感，电影开场",
+  "en": "long shot, wide establishing shot, tiny figure in landscape, vast environment, epic scale, cinematic opening",
+  "ch": 2,
+  "chapter": "镜头与景别",
+  "color": "#2E5CE8",
+  "img": "images/远景.png"
+ },
+ {
+  "name": "推镜头",
+  "alias": "推近 向前推进 纵深 push in dolly in",
+  "cn": "推镜头，镜头向前推进，主体逐渐放大，焦点汇聚，情绪递进，电影感",
+  "en": "push-in shot, dolly in, camera moving toward subject, gradual zoom, building emotion, cinematic",
+  "ch": 2,
+  "chapter": "镜头与景别",
+  "color": "#2E5CE8",
+  "img": "images/推镜头.png"
+ },
+ {
+  "name": "拉镜头",
+  "alias": "拉远 后退 从近到远 pull out dolly out",
+  "cn": "拉镜头，镜头向后拉远，主体逐渐变小，环境展开，揭示全局，孤独感",
+  "en": "pull-back shot, dolly out, zoom out, camera moving away from subject, revealing environment, ending shot",
+  "ch": 2,
+  "chapter": "镜头与景别",
+  "color": "#2E5CE8",
+  "img": "images/远景.png"
+ },
+ {
+  "name": "摇镜头",
+  "alias": "水平摇 摇摄 转头 pan",
+  "cn": "摇镜头，相机固定，水平转动，扫过场景，视野展开，全景扫描",
+  "en": "pan shot, camera panning horizontally, static camera position, sweeping across scene, panoramic view",
+  "ch": 2,
+  "chapter": "镜头与景别",
+  "color": "#2E5CE8",
+  "img": "images/移镜头.png"
+ },
+ {
+  "name": "移镜头",
+  "alias": "平移 横移 轨道 视差 tracking shot dolly",
+  "cn": "移镜头，相机平移，轨道拍摄，视差效果，空间纵深感，稳定器跟拍",
+  "en": "tracking shot, lateral camera movement, dolly track, parallax, spatial depth, stabilizer",
+  "ch": 2,
+  "chapter": "镜头与景别",
+  "color": "#2E5CE8",
+  "img": "images/移镜头.png"
+ },
+ {
+  "name": "跟镜头",
+  "alias": "跟随 跟拍 follow shot",
+  "cn": "跟镜头，跟拍，摄影机跟随主体，人物行走，背景后退，运动感，代入感",
+  "en": "tracking shot, follow shot, camera following subject, walking figure, moving background, sense of motion",
+  "ch": 2,
+  "chapter": "镜头与景别",
+  "color": "#2E5CE8",
+  "img": "images/中景.png"
+ },
+ {
+  "name": "升降镜头",
+  "alias": "升镜头 降镜头 俯仰变化 crane jib",
+  "cn": "升降镜头，垂直运动，从低到高，视野展开，俯瞰，航拍感",
+  "en": "crane shot, camera rising vertically, ascending from ground to overhead, expanding view, aerial perspective",
+  "ch": 2,
+  "chapter": "镜头与景别",
+  "color": "#2E5CE8",
+  "img": "images/升降镜头.png"
+ },
+ {
+  "name": "甩镜头",
+  "alias": "快速摇 运动模糊 拖影 whip pan motion blur",
+  "cn": "甩镜头，快速摇摄，运动模糊，拖影，动感转场，速度感",
+  "en": "whip pan, rapid camera swing, motion blur, smear transition, dynamic, sense of speed",
+  "ch": 2,
+  "chapter": "镜头与景别",
+  "color": "#2E5CE8",
+  "img": "images/甩镜头.png"
+ },
+ {
+  "name": "广角镜头",
+  "alias": "广角 透视夸张 前景放大 wide angle lens",
+  "cn": "广角镜头，二十四毫米，宽阔视角，夸张透视，近大远小，空间纵深感",
+  "en": "wide-angle lens, 24mm lens, wide field of view, exaggerated perspective, strong depth, exaggerated foreground",
+  "ch": 2,
+  "chapter": "镜头与景别",
+  "color": "#2E5CE8",
+  "img": "images/广角镜头.png"
+ },
+ {
+  "name": "长焦镜头",
+  "alias": "长焦 压缩空间 背景虚化 telephoto lens",
+  "cn": "长焦镜头，八十五毫米，远摄，空间压缩，背景虚化，主体突出，人像",
+  "en": "telephoto lens, 85mm lens, 200mm lens, compressed background, shallow depth of field, subject isolation, portrait",
+  "ch": 2,
+  "chapter": "镜头与景别",
+  "color": "#2E5CE8",
+  "img": "images/长焦镜头.png"
+ },
+ {
+  "name": "浅景深与背景虚化",
+  "alias": "虚化 散景 大光圈 shallow depth of field bokeh",
+  "cn": "浅景深，背景虚化，大光圈，对焦清晰，背景柔美散景，主体突出，人像",
+  "en": "shallow depth of field, bokeh, large aperture, f/1.8, sharp subject, creamy blurred background, portrait",
+  "ch": 2,
+  "chapter": "镜头与景别",
+  "color": "#2E5CE8",
+  "img": "images/浅景深.png"
+ },
+ {
+  "name": "三分法",
+  "alias": "九宫格 三分线 rule of thirds",
+  "cn": "三分法构图，主体位于三分线交点，九宫格布局，偏离中心，画面平衡，视线自然",
+  "en": "rule of thirds, subject on intersection points, nine-grid composition, off-center, balanced frame",
+  "ch": 3,
+  "chapter": "构图与机位",
+  "color": "#C8890B",
+  "img": "images/三分法.png"
+ },
+ {
+  "name": "中心构图",
+  "alias": "居中 正面对称 centered composition",
+  "cn": "中心构图，主体位于画面正中央，正面视角，庄重稳定，视觉焦点集中",
+  "en": "center composition, centered subject, frontal view, symmetrical balance, strong focal point",
+  "ch": 3,
+  "chapter": "构图与机位",
+  "color": "#C8890B",
+  "img": "images/中心构图.png"
+ },
+ {
+  "name": "对称构图",
+  "alias": "镜像 倒影 上下对称 symmetry mirror reflection",
+  "cn": "对称构图，中轴线对称，水面倒影，左右平衡，庄重安静，完美镜像",
+  "en": "symmetrical composition, central axis symmetry, mirror reflection, perfect balance, bilateral symmetry",
+  "ch": 3,
+  "chapter": "构图与机位",
+  "color": "#C8890B",
+  "img": "images/对称构图.png"
+ },
+ {
+  "name": "留白",
+  "alias": "负空间 极简 大面积空白 negative space minimal",
+  "cn": "留白构图，大面积空白，主体小巧，极简主义，呼吸感，意境悠远，雾气朦胧",
+  "en": "negative space, minimalist composition, small subject, breathing room, vast emptiness, atmospheric",
+  "ch": 3,
+  "chapter": "构图与机位",
+  "color": "#C8890B",
+  "img": "images/留白.png"
+ },
+ {
+  "name": "前景遮挡",
+  "alias": "前景虚化 遮挡 层次 foreground framing",
+  "cn": "前景遮挡，虚化前景，透过树叶拍摄，浅景深，层次感，偷窥视角",
+  "en": "foreground obstruction, out-of-focus foreground, shallow depth of field, looking through leaves, layered depth, candid",
+  "ch": 3,
+  "chapter": "构图与机位",
+  "color": "#C8890B",
+  "img": "images/前景遮挡.png"
+ },
+ {
+  "name": "框架构图",
+  "alias": "画框 门窗取景 天然框 framing arch",
+  "cn": "框架构图，画中画，透过门洞取景，拱形窗框，主体框中，纵深感",
+  "en": "frame within a frame, doorway framing, arch window, subject enclosed, layered depth, cinematic",
+  "ch": 3,
+  "chapter": "构图与机位",
+  "color": "#C8890B",
+  "img": "images/框架构图.png"
+ },
+ {
+  "name": "对角线构图",
+  "alias": "斜线 对角线张力 diagonal composition",
+  "cn": "对角线构图，斜向线条，动感十足，方向感，视觉冲击，倾斜延伸",
+  "en": "diagonal composition, diagonal lines, dynamic movement, strong direction, dramatic tension",
+  "ch": 3,
+  "chapter": "构图与机位",
+  "color": "#C8890B",
+  "img": "images/对角线构图.png"
+ },
+ {
+  "name": "低角度与高角度",
+  "alias": "仰拍 俯拍 机位角度 low angle high angle",
+  "cn": "低角度仰拍，人物高大威严，高角度俯拍，人物渺小，机位变化，视角对比",
+  "en": "low angle shot, looking up, heroic, high angle shot, looking down, vulnerable, camera angle",
+  "ch": 3,
+  "chapter": "构图与机位",
+  "color": "#C8890B",
+  "img": "images/低角度仰拍.png"
+ },
+ {
+  "name": "鸟瞰视角",
+  "alias": "俯瞰 无人机 垂直俯拍 bird's eye aerial top-down",
+  "cn": "鸟瞰视角，航拍，垂直俯拍，城市俯瞰，俯视图，地图感，人群如蚁",
+  "en": "bird's eye view, aerial view, top-down shot, overhead drone shot, cityscape from above, map-like",
+  "ch": 3,
+  "chapter": "构图与机位",
+  "color": "#C8890B",
+  "img": "images/鸟瞰视角.png"
+ },
+ {
+  "name": "荷兰角（倾斜构图）",
+  "alias": "倾斜构图 歪斜画面 dutch angle tilted",
+  "cn": "荷兰角构图，倾斜构图，地平线倾斜，画面失衡，紧张不安，电影感",
+  "en": "dutch angle, canted angle, tilted horizon, off-level camera, uneasy tension, cinematic",
+  "ch": 3,
+  "chapter": "构图与机位",
+  "color": "#C8890B",
+  "img": "images/荷兰角.png"
+ },
+ {
+  "name": "纵深感与层次",
+  "alias": "三层 前中远 空间层次 depth layering",
+  "cn": "纵深感，空间层次，前景中景背景，近大远小，空气透视，浅景深，立体空间",
+  "en": "depth and layers, foreground midground background, atmospheric perspective, depth of field, strong sense of depth",
+  "ch": 3,
+  "chapter": "构图与机位",
+  "color": "#C8890B",
+  "img": "images/纵深层次.png"
+ },
+ {
+  "name": "装饰艺术",
+  "alias": "Art Deco 爵士年代 金黑几何 放射纹 art deco geometric sunburst",
+  "cn": "装饰艺术风格，几何放射纹，锯齿纹，金黑配色，对称构图，二十世纪二十年代奢华感，克莱斯勒大厦尖顶",
+  "en": "Art Deco, geometric sunburst, chevron and zigzag motifs, gold and black, symmetrical composition, 1920s luxury, Chrysler Building spire",
+  "ch": 4,
+  "chapter": "风格流派",
+  "color": "#12A05C",
+  "img": "images/01装饰艺术.png"
+ },
+ {
+  "name": "新艺术",
+  "alias": "Art Nouveau 穆卡 鞭索曲线 花卉藤蔓 art nouveau mucha whiplash",
+  "cn": "新艺术风格，鞭索曲线，有机花卉纹样，流动的线条，平面装饰，穆卡海报风格",
+  "en": "Art Nouveau, whiplash curves, organic floral motifs, flowing lines, flat decorative style, Mucha style",
+  "ch": 4,
+  "chapter": "风格流派",
+  "color": "#12A05C",
+  "img": "images/02新艺术.png"
+ },
+ {
+  "name": "格拉斯哥学派",
+  "alias": "Glasgow 麦金托什 高背椅 玫瑰纹 glasgow mackintosh",
+  "cn": "格拉斯哥学派风格，几何直线，格拉斯哥玫瑰纹样，竖长比例，高背椅，黑白灰配色，麦金托什风格",
+  "en": "Glasgow Style, geometric straight lines, Glasgow rose motif, tall vertical proportions, high-back chair, monochrome, Mackintosh style",
+  "ch": 4,
+  "chapter": "风格流派",
+  "color": "#12A05C",
+  "img": "images/03格拉斯哥.png"
+ },
+ {
+  "name": "维也纳分离派",
+  "alias": "Secession 克里姆特 金箔 马赛克 vienna secession klimt gold",
+  "cn": "维也纳分离派风格，金色装饰，几何化平面，马赛克拼贴感，装饰性肖像，克里姆特风格",
+  "en": "Vienna Secession style, golden ornament, geometric flat planes, mosaic-like pattern, decorative portrait, Klimt style",
+  "ch": 4,
+  "chapter": "风格流派",
+  "color": "#12A05C",
+  "img": "images/04维也纳分离派.png"
+ },
+ {
+  "name": "高蒂与加泰罗尼亚现代主义",
+  "alias": "Gaudi 圣家堂 螺旋曲线 马赛克 gaudi sagrada familia",
+  "cn": "高蒂风格，加泰罗尼亚现代主义，有机仿生曲线，螺旋塔楼，彩色马赛克拼贴，圣家族大教堂式尖顶",
+  "en": "Gaudi style, Catalan Modernisme, organic biomorphic curves, spiraling towers, colorful mosaic tiles, Sagrada Familia inspired spires",
+  "ch": 4,
+  "chapter": "风格流派",
+  "color": "#12A05C",
+  "img": "images/05高蒂.png"
+ },
+ {
+  "name": "包豪斯",
+  "alias": "Bauhaus 三原色 几何构成 功能主义 bauhaus geometric primary",
+  "cn": "包豪斯风格，几何基本形，三原色配色，极简构成，形式追随功能，网格排版",
+  "en": "Bauhaus style, geometric basic shapes, primary colors, minimal composition, form follows function, grid layout",
+  "ch": 4,
+  "chapter": "风格流派",
+  "color": "#12A05C",
+  "img": "images/06包豪斯.png"
+ },
+ {
+  "name": "流线型风格",
+  "alias": "Streamline 子弹头 空气动力 1930s streamline Moderne",
+  "cn": "流线型风格，圆润曲线，水平线条，子弹头造型，二十世纪三四十年代，速度感，复古未来感",
+  "en": "Streamline Moderne, streamlined curves, horizontal lines, bullet-nose shape, 1930s, sense of speed, retro-futurism",
+  "ch": 4,
+  "chapter": "风格流派",
+  "color": "#12A05C",
+  "img": "images/07流线型.png"
+ },
+ {
+  "name": "孟菲斯风格",
+  "alias": "Memphis 彩色积木 水磨石 1980s memphis terrazzo",
+  "cn": "孟菲斯风格，大胆撞色，几何拼贴，波普趣味，波点与波浪纹，高饱和配色，后现代设计",
+  "en": "Memphis design, bold clashing colors, geometric collage, playful pop art, polka dots and squiggles, high saturation, postmodern",
+  "ch": 4,
+  "chapter": "风格流派",
+  "color": "#12A05C",
+  "img": "images/08孟菲斯.png"
+ },
+ {
+  "name": "极简主义",
+  "alias": "Minimalism 留白 极简 性冷淡 minimalism minimal",
+  "cn": "极简主义风格，少即是多，大面积留白，单色配色，简洁几何，干净构图，克制",
+  "en": "Minimalism, less is more, negative space, monochromatic palette, clean geometry, clean composition, restrained",
+  "ch": 4,
+  "chapter": "风格流派",
+  "color": "#12A05C",
+  "img": "images/09极简主义.png"
+ },
+ {
+  "name": "波普艺术",
+  "alias": "Pop art 沃霍尔 丝网印刷 大色块 pop art warhol silkscreen",
+  "cn": "波普艺术风格，丝网印刷效果，高饱和撞色，本戴网点，大众流行符号，平涂色块，安迪·沃霍尔风格",
+  "en": "Pop art, silkscreen print effect, high saturation clashing colors, halftone dots, popular culture icons, flat color blocks, Andy Warhol style",
+  "ch": 4,
+  "chapter": "风格流派",
+  "color": "#12A05C",
+  "img": "images/10波普艺术.png"
+ },
+ {
+  "name": "黑色电影",
+  "alias": "Film noir 侦探片 雨夜 明暗对照 film noir detective",
+  "cn": "黑色电影风格，低调布光，明暗对照，百叶窗影子，雨夜街道，霓虹倒影，私家侦探，黑白摄影质感",
+  "en": "film noir, low-key lighting, chiaroscuro, venetian blind shadows, rainy night street, neon reflections, private detective, noir black and white",
+  "ch": 4,
+  "chapter": "风格流派",
+  "color": "#12A05C",
+  "img": "images/11黑色电影.png"
+ },
+ {
+  "name": "诗意现实主义",
+  "alias": "Poetic realism 雾码头 法国电影 潮湿 忧郁 poetic realism",
+  "cn": "诗意现实主义风格，朦胧柔光，潮湿街道，薄雾，柔和散射光，三十年代法国，淡淡的忧伤，纪实感",
+  "en": "poetic realism, hazy soft light, damp streets, mist, soft diffused light, 1930s France, melancholy, documentary feel",
+  "ch": 4,
+  "chapter": "风格流派",
+  "color": "#12A05C",
+  "img": "images/12诗意现实主义.png"
+ },
+ {
+  "name": "巴洛克戏剧光",
+  "alias": "Baroque 卡拉瓦乔 追光 烛光 baroque chiaroscuro caravaggio",
+  "cn": "巴洛克戏剧光，强明暗反差，暗色调主义，一束追光，烛光照明，卡拉瓦乔风格，戏剧性",
+  "en": "Baroque dramatic lighting, strong chiaroscuro, tenebrism, single spotlight beam, candlelight, Caravaggio style, theatrical",
+  "ch": 4,
+  "chapter": "风格流派",
+  "color": "#12A05C",
+  "img": "images/13巴洛克戏剧光.png"
+ },
+ {
+  "name": "绘画性油画质感",
+  "alias": "Impasto 厚涂 笔触 刮刀 oil painting impasto brushstroke",
+  "cn": "绘画性油画质感，可见笔触，厚涂法，颜料堆叠，画布纹理，油画质感，手工绘制感",
+  "en": "painterly oil painting texture, visible brushstrokes, impasto, thick paint layers, canvas texture, oil paint feel, hand-painted",
+  "ch": 4,
+  "chapter": "风格流派",
+  "color": "#12A05C",
+  "img": "images/14油画质感.png"
+ },
+ {
+  "name": "浮世绘",
+  "alias": "Ukiyo-e 神奈川冲浪 葛饰北斋 版画 ukiyo-e hokusai great wave",
+  "cn": "浮世绘风格，彩色木版画，平涂色块，墨线轮廓，套色印刷，俯瞰构图，葛饰北斋风格，神奈川冲浪里",
+  "en": "Ukiyo-e style, Japanese woodblock print, flat color blocks, ink outlines, color registration, birds-eye composition, Hokusai style, Great Wave",
+  "ch": 4,
+  "chapter": "风格流派",
+  "color": "#12A05C",
+  "img": "images/15浮世绘.png"
+ },
+ {
+  "name": "印象派",
+  "alias": "Impressionism 莫奈 斑驳光 户外 impressionism monet dappled",
+  "cn": "印象派风格，户外写生，瞬间光影，松散笔触，色彩并置，柔和水彩般色调，莫奈风格",
+  "en": "Impressionism, plein air painting, fleeting light, loose brushstrokes, juxtaposed colors, soft tonal harmony, Monet style",
+  "ch": 4,
+  "chapter": "风格流派",
+  "color": "#12A05C",
+  "img": "images/16印象派.png"
+ },
+ {
+  "name": "超现实主义",
+  "alias": "Surrealism 达利 融化的钟 梦境 surrealism dali melting clock",
+  "cn": "超现实主义风格，梦境场景，荒诞错位，写实笔触，漂浮的时钟，潜意识意象，达利风格",
+  "en": "Surrealism, dreamlike scene, absurd juxtaposition, realistic rendering, melting clocks, subconscious imagery, Dali style",
+  "ch": 4,
+  "chapter": "风格流派",
+  "color": "#12A05C",
+  "img": "images/17超现实.png"
+ },
+ {
+  "name": "立体主义",
+  "alias": "Cubism 毕加索 几何分解 多视角 cubism picasso geometric",
+  "cn": "立体主义风格，多视角解构，几何切面，碎片拼贴，同一平面呈现多个角度，毕加索风格",
+  "en": "Cubism, multiple viewpoints, geometric facets, fragmented collage, simultaneous angles on one plane, Picasso style",
+  "ch": 4,
+  "chapter": "风格流派",
+  "color": "#12A05C",
+  "img": "images/18立体主义.png"
+ },
+ {
+  "name": "赛博朋克",
+  "alias": "Cyberpunk 霓虹 高科技低生活 银翼杀手 cyberpunk neon blade runner",
+  "cn": "赛博朋克风格，高科技低生活，霓虹灯海，青紫撞色，义体改造，密集未来都市，雨夜，反乌托邦",
+  "en": "cyberpunk, high tech low life, neon city lights, cyan and magenta, cybernetic implants, dense futuristic megacity, rainy night, dystopian",
+  "ch": 4,
+  "chapter": "风格流派",
+  "color": "#12A05C",
+  "img": "images/19赛博朋克.png"
+ },
+ {
+  "name": "蒸汽朋克",
+  "alias": "Steampunk 黄铜 齿轮 飞艇 维多利亚 steampunk brass gears airship",
+  "cn": "蒸汽朋克风格，维多利亚时代，黄铜齿轮，蒸汽管道，铆钉护目镜，飞艇，复古机械，铜锈色调",
+  "en": "steampunk, Victorian era, brass gears, steam pipes, rivets and goggles, airship, retro machinery, copper patina tones",
+  "ch": 4,
+  "chapter": "风格流派",
+  "color": "#12A05C",
+  "img": "images/20蒸汽朋克.png"
+ },
+ {
+  "name": "废土风",
+  "alias": "Wasteland 末日 沙漠废墟 后启示录 post apocalyptic wasteland",
+  "cn": "废土风，末日废墟，沙尘暴，锈蚀金属，脏橙色调，荒芜沙漠，改装车辆，后末日生存",
+  "en": "post-apocalyptic wasteland, ruined city, sandstorm, rusted metal, dirty orange tones, barren desert, modified vehicles, survival",
+  "ch": 4,
+  "chapter": "风格流派",
+  "color": "#12A05C",
+  "img": "images/21废土风.png"
+ },
+ {
+  "name": "梦幻核梦核",
+  "alias": "Dreamcore liminal 阈限空间 诡异熟悉 dreamcore liminal space",
+  "cn": "梦核风格，梦幻核，阈限空间，空旷走廊，褪色怀旧色调，柔光过曝，似曾相识的不安感",
+  "en": "dreamcore, weirdcore, liminal space, empty corridor, faded nostalgic tones, soft overexposed light, uncanny familiarity",
+  "ch": 4,
+  "chapter": "风格流派",
+  "color": "#12A05C",
+  "img": "images/22梦核.png"
+ },
+ {
+  "name": "日系清新",
+  "alias": "Japanese fresh 日系 夏天 逆光 学生 japanese cinematic summer",
+  "cn": "日系清新风格，高曝光低饱和，柔和自然光，青绿色调，逆光人像，干净日常，青春感",
+  "en": "Japanese fresh style, high key low saturation, soft natural light, greenish teal tone, backlit portrait, clean everyday moment, youthful",
+  "ch": 4,
+  "chapter": "风格流派",
+  "color": "#12A05C",
+  "img": "images/23日系清新.png"
+ },
+ {
+  "name": "国风水墨",
+  "alias": "Ink wash 水墨 留白 山水 宣纸 chinese ink wash shanshui",
+  "cn": "国风水墨风格，水墨画，墨色浓淡，大面积留白，宣纸质感，远山意境，毛笔笔触，山水",
+  "en": "Chinese ink wash painting, ink wash, varying ink tones, large negative space, rice paper texture, distant mountains, brush strokes, shanshui landscape",
+  "ch": 4,
+  "chapter": "风格流派",
+  "color": "#12A05C",
+  "img": "images/24国风水墨.png"
+ },
+ {
+  "name": "二次元动漫风",
+  "alias": "Anime 二次元 新海诚 赛璐璐 anime cel shading",
+  "cn": "二次元动漫风格，日式动画，大眼睛，赛璐璐平涂，硬边阴影，头发高光，人物立绘，干净色块",
+  "en": "anime style, Japanese animation, large eyes, cel shading, hard-edged shadows, hair highlights, character illustration, clean color blocks",
+  "ch": 4,
+  "chapter": "风格流派",
+  "color": "#12A05C",
+  "img": "images/25二次元.png"
+ },
+ {
+  "name": "绿色",
+  "alias": "春绿 嫩芽 砷绿 希望 毒药 green hope poison emerald arsenic",
+  "cn": "嫩绿色，春日新芽，生机盎然，清新自然，柔和晨光；砷绿，复古壁纸，幽闭室内，维多利亚复古氛围",
+  "en": "spring green, fresh buds, vibrant new life, soft morning light; arsenical green, vintage wallpaper, dim enclosed room, Victorian eerie atmosphere",
+  "ch": 5,
+  "chapter": "色彩",
+  "color": "#7B4FA8",
+  "img": "images/01绿色.png"
+ },
+ {
+  "name": "红色",
+  "alias": "玫瑰红 爱情 警示 仇恨 red love anger warning",
+  "cn": "正红色，玫瑰与烛光，浪漫热烈，喜庆氛围；警示红，火光与警报，紧张危险，强烈视觉冲击",
+  "en": "crimson red, roses and candlelight, romantic warmth, festive mood; alarm red, fire glow and sirens, tense danger, high impact",
+  "ch": 5,
+  "chapter": "色彩",
+  "color": "#7B4FA8",
+  "img": "images/02红色.png"
+ },
+ {
+  "name": "蓝色",
+  "alias": "忠诚蓝 深海 忧郁 遥远 blue loyalty melancholy ocean",
+  "cn": "明亮蔚蓝，晴空与海，清澈明快，宁静信任；深蓝，夜色海面，清冷孤独，忧郁疏离",
+  "en": "bright azure, clear sky and sea, crisp and calm, trustworthy mood; deep navy, night sea surface, cold solitude, melancholy distance",
+  "ch": 5,
+  "chapter": "色彩",
+  "color": "#7B4FA8",
+  "img": "images/03蓝色.png"
+ },
+ {
+  "name": "紫色",
+  "alias": "权力紫 皇冠 高贵 花哨 purple royalty kitsch",
+  "cn": "深紫色，丝绒质感，皇冠与王座，高贵神秘，柔和光；亮紫色，霓虹灯，花哨廉价，轻浮氛围",
+  "en": "deep purple, velvet texture, crown and throne, royal mystery, soft light; bright violet, neon glow, gaudy cheap look, flashy mood",
+  "ch": 5,
+  "chapter": "色彩",
+  "color": "#7B4FA8",
+  "img": "images/04紫色.png"
+ },
+ {
+  "name": "黑色",
+  "alias": "优雅黑 礼服 丧服 哀悼 black elegance mourning",
+  "cn": "纯黑，小黑裙，优雅庄重，高级质感，柔和打光；纯黑，丧服与白花，肃穆哀悼，低沉氛围",
+  "en": "deep black, little black dress, elegant solemnity, premium texture, soft lighting; pure black, mourning attire and white flowers, somber grief, subdued mood",
+  "ch": 5,
+  "chapter": "色彩",
+  "color": "#7B4FA8",
+  "img": "images/05黑色.png"
+ },
+ {
+  "name": "白色",
+  "alias": "纯洁白 婚纱 空白 雪原 white purity emptiness",
+  "cn": "纯白，婚纱与阳光，明亮纯洁，圣洁氛围，柔光；留白，雪原与空旷，极简寂静，空灵氛围",
+  "en": "pure white, wedding veil and sunlight, bright purity, sacred mood, soft light; blank white, snowy field and emptiness, minimalist silence, ethereal mood",
+  "ch": 5,
+  "chapter": "色彩",
+  "color": "#7B4FA8",
+  "img": "images/06白色.png"
+ },
+ {
+  "name": "黄色",
+  "alias": "阳光黄 向日葵 背叛 黄袍 yellow sunshine betrayal",
+  "cn": "明黄色，向日葵与阳光，明亮欢快，温暖活力；暗黄色，旧画与黄袍，背叛阴郁，古典氛围",
+  "en": "bright yellow, sunflowers and sunlight, cheerful warmth, vibrant; ochre yellow, old painting and yellow robe, betrayal gloom, classical mood",
+  "ch": 5,
+  "chapter": "色彩",
+  "color": "#7B4FA8",
+  "img": "images/07黄色.png"
+ },
+ {
+  "name": "橙色",
+  "alias": "暖橙 秋日 廉价 促销 orange warm cheap",
+  "cn": "暖橙色，秋日果园与夕阳，温暖活力，丰收氛围；高饱和橙，促销招牌与塑料质感，喧闹廉价，商业氛围",
+  "en": "warm orange, autumn orchard and sunset, cozy vibrancy, harvest mood; saturated orange, sale signs and plastic look, loud cheap feel, commercial vibe",
+  "ch": 5,
+  "chapter": "色彩",
+  "color": "#7B4FA8",
+  "img": "images/08橙色.png"
+ },
+ {
+  "name": "粉色",
+  "alias": "温柔粉 婴儿房 稚嫩 荧光粉 pink tender juvenile",
+  "cn": "柔和粉色，暖光与婴儿房，温柔甜美，治愈氛围；荧光粉，卡通堆砌，幼稚浮夸，廉价少女感",
+  "en": "soft pink, warm light and nursery, gentle sweetness, healing mood; neon pink, cartoon clutter, childish gaudy look, cheap girly vibe",
+  "ch": 5,
+  "chapter": "色彩",
+  "color": "#7B4FA8",
+  "img": "images/09粉色.png"
+ },
+ {
+  "name": "青橙调色",
+  "alias": "Teal orange 好莱坞调色 互补色 teal and orange color grade blockbuster",
+  "cn": "青橙调色，电影质感，暖橙色肤色，青蓝色阴影，好莱坞大片色调",
+  "en": "teal and orange color grading, cinematic color grade, warm skin tones, teal shadows, blockbuster film look",
+  "ch": 5,
+  "chapter": "色彩",
+  "color": "#7B4FA8",
+  "img": "images/10青橙调色.png"
+ },
+ {
+  "name": "莫兰迪色",
+  "alias": "Morandi 高级灰 低饱和 灰调 morandi muted grey",
+  "cn": "莫兰迪色，低饱和灰调，柔和宁静，高级质感，温柔治愈",
+  "en": "Morandi color palette, muted desaturated tones, soft and calm, elegant refined look, gentle healing mood",
+  "ch": 5,
+  "chapter": "色彩",
+  "color": "#7B4FA8",
+  "img": "images/11莫兰迪色.png"
+ },
+ {
+  "name": "冷暖双时空",
+  "alias": "Warm cool split 冷暖分区 两个季节 warm cool contrast split",
+  "cn": "冷暖双时空，画面一半暖黄一半冷蓝，色温对比，时空交错，电影叙事感",
+  "en": "split warm and cool lighting, one side golden warm the other cool blue, color temperature contrast, time-space juxtaposition, cinematic narrative",
+  "ch": 5,
+  "chapter": "色彩",
+  "color": "#7B4FA8",
+  "img": "images/12冷暖双时空.png"
+ },
+ {
+  "name": "蓝灰影调",
+  "alias": "Blue grey 冷调 凉白开 低饱和 blue grey cinematic mood",
+  "cn": "蓝灰影调，低饱和冷色调，蓝色与灰色为主，冷静克制，都市疏离感",
+  "en": "blue-gray color grade, low saturation cool tones, blue and gray palette, restrained and calm, urban alienation mood",
+  "ch": 5,
+  "chapter": "色彩",
+  "color": "#7B4FA8",
+  "img": "images/13蓝灰影调.png"
+ },
+ {
+  "name": "红绿互补高饱和",
+  "alias": "Red green complementary 撞色 节庆 red green saturated complementary",
+  "cn": "红绿互补色，高饱和，强烈对比，喜庆热闹，民俗节庆氛围，视觉冲击",
+  "en": "red and green complementary colors, high saturation, vivid contrast, festive lively mood, folk celebration, strong visual impact",
+  "ch": 5,
+  "chapter": "色彩",
+  "color": "#7B4FA8",
+  "img": "images/14红绿互补高饱和.png"
+ },
+ {
+  "name": "低饱和高级灰",
+  "alias": "Low saturation advanced grey 褪色 气质 low sat sophisticated",
+  "cn": "低饱和高级灰，中性灰调，冷静克制，专业质感，极简高级",
+  "en": "low saturation advanced gray, neutral gray tones, calm restraint, professional texture, minimal premium look",
+  "ch": 5,
+  "chapter": "色彩",
+  "color": "#7B4FA8",
+  "img": "images/15低饱和高级灰.png"
+ },
+ {
+  "name": "单色系搭配",
+  "alias": "Monochrome 同色系 深浅单色 monochromatic tones",
+  "cn": "单色系搭配，同色相深浅层次，和谐统一，纯粹专注，极简高级",
+  "en": "monochromatic color scheme, single hue with tonal variation, harmonious unity, pure focus, minimal elegant",
+  "ch": 5,
+  "chapter": "色彩",
+  "color": "#7B4FA8",
+  "img": "images/16单色系.png"
+ },
+ {
+  "name": "撞色对比",
+  "alias": "Color clash 撞色 对比色 complementary clash vibrant",
+  "cn": "撞色对比，强烈色彩反差，跳脱抢眼，年轻潮流，张扬活力",
+  "en": "clashing colors, bold color contrast, striking and eye-catching, youthful trendy look, vibrant daring mood",
+  "ch": 5,
+  "chapter": "色彩",
+  "color": "#7B4FA8",
+  "img": "images/17撞色对比.png"
+ },
+ {
+  "name": "褪色质感",
+  "alias": "Faded 旧照片 复古 褪色 faded vintage photo",
+  "cn": "褪色质感，哑光，暗部提亮，低饱和灰调，复古胶片色，旧照片氛围",
+  "en": "faded film look, matte finish, lifted blacks, desaturated muted colors, vintage analog film",
+  "ch": 5,
+  "chapter": "色彩",
+  "color": "#7B4FA8",
+  "img": "images/18褪色质感.png"
+ },
+ {
+  "name": "磨砂金属",
+  "alias": "Brushed metal 哑光金属 拉丝 颗粒 brushed matte metal",
+  "cn": "磨砂金属，哑光质地，细腻均匀颗粒，柔和漫反射，冷灰色调，边缘微光，高级工业质感",
+  "en": "brushed matte metal, fine uniform grain, soft diffuse reflection, cool gray tone, subtle edge highlight, premium industrial texture",
+  "ch": 6,
+  "chapter": "纹理与材质",
+  "color": "#E07B39",
+  "img": "images/01磨砂金属.png"
+ },
+ {
+  "name": "粗花呢",
+  "alias": "Tweed 毛呢 粗纱 混色 tweed wool woven",
+  "cn": "粗花呢，粗纺羊毛，坑纹肌理，杂色纱线斑点，绒面短纤维，厚实温暖，英伦复古",
+  "en": "tweed fabric, coarse wool weave, textured twill, heathered yarn flecks, fuzzy short fibers, thick and warm, British vintage",
+  "ch": 6,
+  "chapter": "纹理与材质",
+  "color": "#E07B39",
+  "img": "images/02粗花呢.png"
+ },
+ {
+  "name": "丝绸",
+  "alias": "Silk 绸缎 流动光泽 酒红 silk satin flowing sheen",
+  "cn": "丝绸，柔滑光泽，流动高光，轻盈垂坠，柔和褶皱，细腻质感，高级礼服面料",
+  "en": "silk fabric, smooth lustrous sheen, flowing highlights, lightweight drape, soft folds, delicate texture, premium evening gown material",
+  "ch": 6,
+  "chapter": "纹理与材质",
+  "color": "#E07B39",
+  "img": "images/03丝绸.png"
+ },
+ {
+  "name": "风化混凝土",
+  "alias": "Weathered concrete 斑驳 水渍 裂纹 concrete weathered rough",
+  "cn": "风化混凝土，斑驳水渍，细裂纹，粗糙颗粒表面，灰土色调，沧桑痕迹，工业废墟质感",
+  "en": "weathered concrete, mottled water stains, hairline cracks, rough granular surface, gray earthy tones, weathered patina, industrial ruin texture",
+  "ch": 6,
+  "chapter": "纹理与材质",
+  "color": "#E07B39",
+  "img": "images/04风化混凝土.png"
+ },
+ {
+  "name": "水彩晕染",
+  "alias": "Watercolor bleed 水痕 颜料化开 watercolor bleeding wash",
+  "cn": "水彩晕染，颜料渗透扩散，毛糙渐变边缘，水痕沉淀，清新通透，纸张肌理，手绘感",
+  "en": "watercolor bleed, pigment diffusion, feathery gradient edges, water tide marks, fresh and translucent, paper grain, hand-painted feel",
+  "ch": 6,
+  "chapter": "纹理与材质",
+  "color": "#E07B39",
+  "img": "images/05水彩晕染.png"
+ },
+ {
+  "name": "厚涂笔触",
+  "alias": "Impasto 厚涂 颜料堆叠 刮刀 impasto thick paint palette knife",
+  "cn": "厚涂笔触，颜料堆叠肌理，刮刀痕迹，笔触凸起立体感，光影分明，浓烈色彩，油画质感",
+  "en": "impasto brushstrokes, thick paint buildup, palette knife marks, raised textured strokes, defined light and shadow, bold colors, oil painting texture",
+  "ch": 6,
+  "chapter": "纹理与材质",
+  "color": "#E07B39",
+  "img": "images/06厚涂笔触.png"
+ },
+ {
+  "name": "胶片颗粒",
+  "alias": "Film grain 噪点 复古 grain noise vintage",
+  "cn": "胶片颗粒，细密噪点，随机颗粒感，复古怀旧，柔化边缘，低饱和，老照片质感",
+  "en": "film grain, fine noise, random grain texture, vintage nostalgia, softened edges, low saturation, old photo look",
+  "ch": 6,
+  "chapter": "纹理与材质",
+  "color": "#E07B39",
+  "img": "images/07胶片颗粒.png"
+ },
+ {
+  "name": "磨砂玻璃",
+  "alias": "Frosted glass 雾面 毛玻璃 透光 frosted glass translucent matte",
+  "cn": "磨砂玻璃，半透明雾面，柔和透光，细密哑光颗粒，朦胧影像，柔光效果，私密质感",
+  "en": "frosted glass, semi-transparent matte surface, soft light diffusion, fine grain, blurred silhouettes, gentle glow, privacy texture",
+  "ch": 6,
+  "chapter": "纹理与材质",
+  "color": "#E07B39",
+  "img": "images/08磨砂玻璃.png"
+ },
+ {
+  "name": "液态金属",
+  "alias": "Liquid metal 流动银色 future 科幻 liquid chrome metal",
+  "cn": "液态金属，银色流动曲面，高反光，拉长扭曲高光，强烈明暗对比，圆润连绵边缘，未来科幻质感",
+  "en": "liquid metal, silver flowing surface, high reflectivity, elongated distorted highlights, strong contrast, smooth continuous curves, futuristic sci-fi texture",
+  "ch": 6,
+  "chapter": "纹理与材质",
+  "color": "#E07B39",
+  "img": "images/09液态金属.png"
+ },
+ {
+  "name": "纸张纤维",
+  "alias": "Paper fiber 纸纹 绒毛 毛边 paper texture fiber deckle",
+  "cn": "纸张纤维，细密纤维交织，微小绒毛，毛边，自然褶皱，米白暖色，手工纸质感",
+  "en": "paper fiber, fine interwoven fibers, tiny fuzz, deckled edges, natural creases, warm off-white, handmade paper texture",
+  "ch": 6,
+  "chapter": "纹理与材质",
+  "color": "#E07B39",
+  "img": "images/10纸张纤维.png"
+ },
+ {
+  "name": "绒面皮革",
+  "alias": "Suede 麂皮 短绒 哑光 suede leather nap matte",
+  "cn": "绒面皮革，细密短绒毛，哑光吸光，柔和深沉色泽，自然褶皱，温润手感，麂皮质感",
+  "en": "suede leather, fine raised short nap, matte light-absorbing finish, soft deep color, natural creases, warm touch, suede texture",
+  "ch": 6,
+  "chapter": "纹理与材质",
+  "color": "#E07B39",
+  "img": "images/11绒面皮革.png"
+ },
+ {
+  "name": "釉面陶瓷",
+  "alias": "Glazed ceramic 青瓷 釉光 温润 celadon glazed ceramic",
+  "cn": "釉面陶瓷，光滑温润釉面，明亮集中高光，饱满均匀釉色，细腻无孔，洁净精致，青瓷质感",
+  "en": "glazed ceramic, smooth lustrous glaze, bright concentrated highlight, rich even glaze color, fine non-porous surface, clean and refined, celadon finish",
+  "ch": 6,
+  "chapter": "纹理与材质",
+  "color": "#E07B39",
+  "img": "images/12釉面陶瓷.png"
+ },
+ {
+  "name": "电影感",
+  "alias": "Cinematic 宽银幕 电影截帧 低饱和 cinematic film still anamorphic",
+  "cn": "电影感，宽银幕画幅，低饱和色调，层次丰富的明暗，淡淡空气感，叙事氛围，电影截帧质感",
+  "en": "cinematic look, widescreen aspect ratio, desaturated color grading, layered contrast, subtle atmospheric haze, narrative mood, film still aesthetic",
+  "ch": 7,
+  "chapter": "氛围与画质",
+  "color": "#1B9AAA",
+  "img": "images/01电影感.png"
+ },
+ {
+  "name": "柔焦朦胧",
+  "alias": "Soft focus 薄纱 柔化 朦胧 soft focus dreamy haze",
+  "cn": "柔焦朦胧，柔化轮廓，高光晕染，薄纱般的柔光，朦胧氛围，低锐度，梦幻温柔",
+  "en": "soft focus, dreamy haze, diffused highlights, gentle glow, lowered sharpness, ethereal soft light, romantic blur",
+  "ch": 7,
+  "chapter": "氛围与画质",
+  "color": "#1B9AAA",
+  "img": "images/02柔焦朦胧.png"
+ },
+ {
+  "name": "过曝高光",
+  "alias": "Overexposed 过曝 高光溢出 发白 overexposed blown highlight high key",
+  "cn": "过曝高光，高光溢出，亮部泛白，细节被光吞没，通透轻盈，夏日晃感，明亮氛围",
+  "en": "overexposed highlights, blown-out whites, blooming bright areas, lost detail in highlights, airy and light, summer glare, high-key glow",
+  "ch": 7,
+  "chapter": "氛围与画质",
+  "color": "#1B9AAA",
+  "img": "images/03过曝高光.png"
+ },
+ {
+  "name": "暗角",
+  "alias": "Vignette 渐晕 四角压暗 vignette corners darkened",
+  "cn": "暗角，四角压暗，渐晕效果，中心明亮突出，视线聚焦，怀旧沉静，复古氛围",
+  "en": "vignette, darkened corners, radial falloff, bright center emphasis, focused composition, nostalgic and calm, vintage mood",
+  "ch": 7,
+  "chapter": "氛围与画质",
+  "color": "#1B9AAA",
+  "img": "images/04暗角.png"
+ },
+ {
+  "name": "空气透视",
+  "alias": "Atmospheric perspective 雾感纵深 远近 air perspective fog depth",
+  "cn": "空气透视，雾感纵深，远淡近浓，远景蓝灰朦胧，层层递进的空间感，柔和散射，山峦叠影",
+  "en": "atmospheric perspective, misty depth, fading distance, hazy blue-gray far background, layered spatial depth, soft scattering, receding mountain layers",
+  "ch": 7,
+  "chapter": "氛围与画质",
+  "color": "#1B9AAA",
+  "img": "images/05空气透视.png"
+ },
+ {
+  "name": "镜头光晕",
+  "alias": "Lens flare 眩光 光斑 逆光 lens flare ghosts glare",
+  "cn": "镜头光晕，逆光光斑，眩光亮带，阳光斜射，温暖浪漫，串状光环，通透耀目",
+  "en": "lens flare, backlit light spots, sun glare streak, angled sunlight, warm and romantic, series of light rings, radiant glow",
+  "ch": 7,
+  "chapter": "氛围与画质",
+  "color": "#1B9AAA",
+  "img": "images/06镜头光晕.png"
+ },
+ {
+  "name": "散景光斑",
+  "alias": "Bokeh 圆形光斑 虚化 bokeh circular light orbs",
+  "cn": "散景光斑，背景虚化，圆形柔光团，浅景深，大光圈，梦幻夜景，主体突出",
+  "en": "bokeh, blurred background, soft circular light orbs, shallow depth of field, wide aperture, dreamy night scene, subject emphasis",
+  "ch": 7,
+  "chapter": "氛围与画质",
+  "color": "#1B9AAA",
+  "img": "images/07散景光斑.png"
+ },
+ {
+  "name": "超细节",
+  "alias": "Ultra detail 8K 超清 纤毫毕现 ultra detail hyperreal sharp",
+  "cn": "超细节，超高分辨率，纤毫毕现，锐利清晰，丰富纹理，逼真质感，极致精细",
+  "en": "ultra detailed, 8K resolution, hyper realistic, razor sharp focus, intricate textures, lifelike quality, extreme detail",
+  "ch": 7,
+  "chapter": "氛围与画质",
+  "color": "#1B9AAA",
+  "img": "images/08超细节.png"
+ },
+ {
+  "name": "黑白影调",
+  "alias": "Black white 黑白 单色 明暗 monochrome black and white",
+  "cn": "黑白影调，无彩色，丰富明暗层次，黑白灰过渡，高对比，凝练沉静，经典摄影感",
+  "en": "black and white, monochrome, rich tonal range, grayscale gradation, high contrast, timeless and calm, classic photography",
+  "ch": 7,
+  "chapter": "氛围与画质",
+  "color": "#1B9AAA",
+  "img": "images/09黑白影调.png"
+ },
+ {
+  "name": "暗调氛围",
+  "alias": "Low key 暗调 低调 阴影 low key dark moody shadow",
+  "cn": "暗调氛围，低调布光，大面积暗部，少量亮部突出主体，强烈明暗对比，沉静神秘，戏剧光影",
+  "en": "low-key lighting, moody dark tone, large shadow areas, selective highlight on subject, strong chiaroscuro, mysterious and calm, dramatic lighting",
+  "ch": 7,
+  "chapter": "氛围与画质",
+  "color": "#1B9AAA",
+  "img": "images/10暗调氛围.png"
+ }
+]
